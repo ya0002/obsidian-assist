@@ -1,10 +1,49 @@
-# Obsidian Notes Generator
+# Obsidian Assist
 
 ![image](./images/readme_cover.png)
 
-A tool to automatically convert any PDF, PPTs and Markdown files to connected notes in Obsidian with the help of Docling and LLMs.
+**Note:** *This project is experimental and primarily a hobby endeavor.*
 
-It uses Docling to convert PDFs/PPTs to Markdown files and then those Markdown files are further segmented and analyzed with LLMs and VectorDBs to create content for each note. 
+**`obsidian-assist`** aims to make **Zettelkasten-style note-taking** the foundation of interactions with Large Language Models (LLMs). By using an **Obsidian vault as the backend**, users retain full control over the relationships between notes, enabling them to explicitly define, edit, and guide context-building for LLM responses.
+
+Obsidian is often used as a "second brain"—this tool aspires to be a way to **interact with that second brain**, allowing for intelligent and personalized dialogue grounded in the user’s own knowledge graph.
+
+## Overview
+
+This tool supports two primary use cases:
+
+---
+
+### 1. Automatic Conversion of Documents into Obsidian Notes
+
+Automatically convert PDFs, PowerPoint presentations, and Markdown files into structured, connected notes within Obsidian. This process leverages **Docling** and **Large Language Models (LLMs)**:
+
+- **Docling** is used to convert PDFs and PPTs into Markdown format.
+- The resulting Markdown files are then segmented and analyzed using LLMs and Vector Databases.
+- Each segment is transformed into an individual, interlinked note to support a connected note-taking workflow in Obsidian.
+
+---
+
+### 2. Analysis and Interaction with an Obsidian Vault
+
+Interact with and analyze the contents of an Obsidian vault through two distinct methods:
+
+- **Cosine Similarity Search**  
+  A generic semantic search method using cosine distance to retrieve contextually relevant notes.
+
+- **Graph-Based Contextual Search**  
+  Utilizes user-defined relationships (graph edges) between notes to build contextual understanding. This method offers three interaction modes:
+  
+  1. **Auto Node Traversal**  
+     Start chatting directly — the system identifies the most relevant node to your query and traverses its neighboring nodes to build context.
+  
+  2. **Fixed Start Node**  
+     Specify a starting node — responses are centered around this predefined note.
+  
+  3. **Start-to-End Path Search**  
+     Specify both a start and end node — the shortest path between them is used to build the context for the response.
+
+
 
 ## Running with Docker
 
