@@ -82,6 +82,8 @@ Your vault path would be like
 
 ## Running with conda
 
+Make sure to set the environment variables.
+
 Create an environment
 ```
 $ conda create -n obsdidian python=3.11
