@@ -44,6 +44,11 @@ Interact with and analyze the contents of an Obsidian vault through two distinct
      Specify both a start and end node — the shortest path between them is used to build the context for the response.
 
 
+## Supported LLM Handlers
+
+1. Ollama
+2. Gemini
+3. Huggingface
 
 ## Running with Docker
 
