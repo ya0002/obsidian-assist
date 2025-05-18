@@ -56,7 +56,7 @@ def process_inputs(
 
 
 with gr.Blocks() as demo:
-    gr.Markdown("# Obsidian Notes Generator")
+    gr.Markdown("# Obsidian Assist")
 
     # Shared: Provider and Model Controls
     provider = gr.Dropdown(

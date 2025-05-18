@@ -22,6 +22,8 @@ Automatically convert PDFs, PowerPoint presentations, and Markdown files into st
 - The resulting Markdown files are then segmented and analyzed using LLMs and Vector Databases.
 - Each segment is transformed into an individual, interlinked note to support a connected note-taking workflow in Obsidian.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JVaCnP9epLs?si=B0j5eKWLuZHntn3L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ---
 
 ### 2. Analysis and Interaction with an Obsidian Vault
@@ -43,6 +45,11 @@ Interact with and analyze the contents of an Obsidian vault through two distinct
   3. **Start-to-End Path Search**  
      Specify both a start and end node — the shortest path between them is used to build the context for the response.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wP2JzcK-qpg?si=3dMe23_F4nh3SXOk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+---
 
 ## Supported LLM Handlers
 
